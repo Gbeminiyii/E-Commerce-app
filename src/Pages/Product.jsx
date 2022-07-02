@@ -6,6 +6,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Newsletter from '../Components/Newsletter/Newsletter'
 import {  GrAdd } from 'react-icons/gr'
 import {  MdRemove } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
     
@@ -107,12 +108,14 @@ const Amount = styled.span`
     justify-content: center;
     margin: 0px 5px;
 `
-const Button = styled.button`
+const Button = styled(Link)`
     padding: 15px;
     border: 2px solid teal;
     background-color: white;
     cursor: pointer;
     font-weight: 500;
+    color: black;
+    text-decoration: none;
     &:hover{
         background-color: #f8f4f4;
     }
@@ -157,7 +160,7 @@ const Product = () => {
                         <Amount>1</Amount>
                         <GrAdd/>
                     </AmountContainer>
-                    <Button>ADD TO CART</Button>
+                    <Button to='/Cart'>ADD TO CART</Button>
                 </AddContainer>
             </InfoContainer>
         </Wrapper>

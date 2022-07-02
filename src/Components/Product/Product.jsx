@@ -29,7 +29,7 @@ const Product = ({item}) => {
         <Circle/>
         <Image src={item.img}/>
         <Info>
-            <Iconn to='/Product'>
+            <Iconn to='/Cart'>
                 <BsCart3/>
             </Iconn>
             <Iconn to='/Product'>

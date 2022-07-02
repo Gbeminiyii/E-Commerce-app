@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { FaSearch } from 'react-icons/fa'
 import { BsCart3 } from 'react-icons/bs'
-import { Input, Language,  
-    MenuItem, 
+import { Input, 
+    Language,   
     NavBarCenter, 
     NavBarContainer, 
     NavBarLeft, 
@@ -49,7 +49,7 @@ const Navbar = () => {
             <NavBarRight>
                 <MenuItems to='/Register'>REGISTER</MenuItems>
                 <MenuItems to='/Login'>SIGN-IN</MenuItems>
-                <MenuItem><BsCart3/></MenuItem>
+                <MenuItems to='/Cart'><BsCart3/></MenuItems>
             </NavBarRight>
         </NavBarWrapper>
     </NavBarContainer>
