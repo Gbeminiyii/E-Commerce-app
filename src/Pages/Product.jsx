@@ -128,7 +128,7 @@ const Product = () => {
         <Navbar/>
         <Wrapper>
             <ImgContainer>
-            <Image src='"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png"'/>
+            <Image src="https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png"/>
             </ImgContainer>
             <InfoContainer>
                 <Title>Denim Jumpsuit</Title>
